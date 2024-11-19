@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+        .header{
+            height: 80vh;
+            background-image:url(img/bg_header.jpg);
+            background-size: cover;
+            background-position: center;
+            padding: 50px;
+        }
+
+
+        .header .contain{
+            text-align:center;
+            padding: 130px;
+            color: white;
+        }
+
+        .header .contain h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 300px;
+            font-size: 80px;
+            text-transform: uppercase;
+            margin: 40px;
+        }
+
+        .header .contain .Wedo{
+            color:red;
+
+        }
+
+        .header .contain p{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            margin: 40px;
+            color:lightgray;
+        }
+        
+        hr{
+            width: 90px;
+            border: 1px solid red;
+        }
+
+        .header .contain button{
+            padding: 20px 40px;
+            color: white;
+            background-color:red;
+            border: none;
+            font-size: 20px;
+        }
+
+
+        .fa-angle-right{
+            color: white;
+        }
+
+        .header .nav{
+            width: 80%;
+            background-color: red;
+            margin: auto;
+            display: flex;
+        }
+
+        .header .nav .logo{
+            width: 40%;
+            padding: 0 20px;
+        }
+
+        .header .nav .logo img{
+            width: 200px;
+        }
+
+        .header .nav .menu{
+            width: 60%;
+            color: white;
+            padding: 20px;
+            display:flex;
+            justify-content:flex-end;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: smaller;
+        }
+
+        .header .nav .menu a{
+            text-decoration:none;
+            color:white;
+        }
+        
+        .header .nav .menu ul{
+            display: flex;
+        }
+
+        .header .nav .menu li{
+            display:flex;
+            align-items:center;
+            color: white;
+            margin: 10px;
+            text-transform: uppercase;
+            
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <img src="img/logo.png">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a>
+                <li><a href="#">About us</a>
+                <li><a href="#">Services</a>
+                <li><a href="#">Projects</a>
+                <li><a href="#">Blog/News</a>
+                <li><a href="#">Shop</a>
+            </ul>
+        </div>
+    </div>
+    <div class="contain">
+        <h1>Think Big. <span class="Wedo">We do.</span></h1>
+        <hr>
+        <p>Capitalise on how hanging fruit to identify a ballpark.</p>
+        <button>Our porfolio <i class="fa-solid fa-angle-right"></i></button>
+    </div>
+</div>
+</body>
+</html>
